@@ -1,0 +1,10 @@
+.model-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+.brand-logo-container {
+    background: linear-gradient(to right, #ff4b2b, #ff416c);
+    padding: 15px 30px;
+    border-radius: 8px;
+    display: inline-block;
+}

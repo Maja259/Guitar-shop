@@ -1,0 +1,18 @@
+.hero-section {
+    padding: 80px 0;
+    background: #fff;
+}
+
+.hero-image {
+    max-height: 350px;
+    object-fit: cover;
+}
+
+.brand-card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.footer-section {
+    background: #f8f9fa;
+}
