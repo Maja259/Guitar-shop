@@ -48,7 +48,6 @@ const GuitarDetails = () => {
                         </Navbar.Brand>
                     </Container>
 
-                    {/* Hero Guitar Image */}
                     <div
                         style={{
                             width: "600px",
@@ -77,7 +76,6 @@ const GuitarDetails = () => {
                 </Navbar>
             </div>
 
-            {/* Tabs and Content */}
             <Container className="mt-5 pt-5">
                 <div className="d-flex justify-content-start border-bottom mb-4">
                     <button
@@ -94,7 +92,6 @@ const GuitarDetails = () => {
                     </button>
                 </div>
 
-                {/* SPECIFICATIONS */}
                 {activeTab === 'specs' ? (
                     <>
                         <h2 className="fw-bold mb-3">{model.name}</h2>
@@ -158,7 +155,6 @@ const GuitarDetails = () => {
                 )}
             </Container>
 
-            {/* FOOTER */}
             <footer className="footer-section bg-light pt-5 mt-5">
                 <Container>
                     <Row>

@@ -101,10 +101,8 @@ const GuitarModels = () => {
 
     return (
         <>
-            {/* Navbar со копче најлево, логото до него и градиент позадина */}
             <Navbar bg="white" expand="lg" className="py-3 border-bottom position-relative">
                 <Container className="d-flex align-items-center justify-content-start gap-3">
-                    {/* Копче Back најлево */}
                     <button
                         onClick={() => navigate("/")}
                         className="btn btn-link text-dark fw-bold mb-0"
@@ -112,13 +110,11 @@ const GuitarModels = () => {
                         ← Back to Home
                     </button>
 
-                    {/* Логото веднаш до копчето */}
                     <Navbar.Brand className="mb-0">
                         <img src="Logo.svg" alt="Logo" />
                     </Navbar.Brand>
                 </Container>
 
-                {/* Сликата со портокалова градиент позадина */}
                 <div
                     style={{
                         width: "600px",
@@ -146,7 +142,6 @@ const GuitarModels = () => {
                 </div>
             </Navbar>
 
-            {/* Hero секција */}
             <section className="hero-section py-5">
                 <Container>
                     <Row>
@@ -165,7 +160,6 @@ const GuitarModels = () => {
                 </Container>
             </section>
 
-            {/* Селекција на модели */}
             <Container className="py-5">
                 <Row className="mb-5">
                     <Col className="text-center">
@@ -234,7 +228,6 @@ const GuitarModels = () => {
                 </InfiniteScroll>
             </Container>
 
-            {/* Footer */}
             <footer className="footer-section bg-light pt-5">
                 <Container>
                     <Row>

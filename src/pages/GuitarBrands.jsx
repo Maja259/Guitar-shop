@@ -16,7 +16,6 @@ const GuitarBrands = () => {
 
     return (
         <div>
-            {/* NAVBAR */}
             <Navbar bg="white" expand="lg" className="py-3 border-bottom">
                 <Container>
                     <Navbar.Brand>
@@ -28,7 +27,7 @@ const GuitarBrands = () => {
                             style={{
                                 width: "600px",
                                 height: "550px",
-                                borderRadius: "0 0 15% 50%", // заоблување долу
+                                borderRadius: "0 0 15% 50%",
                                 overflow: "hidden",
                                 position: "absolute",
                                 right: 0,
@@ -51,7 +50,6 @@ const GuitarBrands = () => {
                 </Container>
             </Navbar>
 
-            {/* HERO СЕКЦИЈА */}
             <section className="hero-section text-center">
                 <Container>
                     <Row className="align-items-center">
@@ -67,7 +65,6 @@ const GuitarBrands = () => {
                 </Container>
             </section>
 
-            {/* ЛИСТА НА БРЕНДОВИ */}
             <section id="brands" className="py-5 mt-5">
                 <Container>
                     <h2 className="fw-bold text-center mb-5 mt-5">
@@ -191,7 +188,6 @@ const GuitarBrands = () => {
             <section className="container-fluid py-5" style={{ background: "#fff" }}>
                 <div className="container">
                     <Row className="align-items-center">
-                        {/* Лева страна: Текст и слика со копчињата */}
                         <Col md={6} className="text-center text-md-start mb-4 mb-md-0">
                             <h2 className="fw-bold mb-3" style={{ fontSize: "2.2rem" }}>
                                 Browse and buy your{" "}
@@ -199,7 +195,6 @@ const GuitarBrands = () => {
                                 VibeStrings.
                             </h2>
 
-                            {/* Слика со копчињата */}
                             <div className="d-flex justify-content-center justify-content-md-start mt-4">
                                 <img
                                     src="Stores.png"
@@ -209,7 +204,6 @@ const GuitarBrands = () => {
                             </div>
                         </Col>
 
-                        {/* Десна страна: Една слика со телефони и кругот позади */}
                         <Col md={6} className="text-center">
                             <img
                                 src="twoPhones.png"
@@ -222,14 +216,11 @@ const GuitarBrands = () => {
             </section>
 
 
-            {/* FOOTER */}
             <footer className="footer-section bg-light pt-5">
                 <Container>
                     <Row>
                         <Col md={3} className="mb-3">
-                            {/*<Link href={"/"}>*/}
                                 <img src="Logo.svg" alt="VibeStrings Logo" />
-                            {/*</Link>*/}
                             <div className="flex items-center gap-2 mt-4">
                                 <Mail />
                                 <p>Enquiry@VibeStrings.com</p>
@@ -258,9 +249,6 @@ const GuitarBrands = () => {
                         <Col md={3} className="mb-3">
                             <h6 className="fw-bold">Follow us</h6>
                             <div className="d-flex gap-3">
-                                {/*<i className="bi bi-facebook fs-4 text-muted"></i>*/}
-                                {/*<i className="bi bi-twitter fs-4 text-muted"></i>*/}
-                                {/*<i className="bi bi-instagram fs-4 text-muted"></i>*/}
                                 <Instagram></Instagram>
                                 <Twitter></Twitter>
                                 <Facebook></Facebook>
